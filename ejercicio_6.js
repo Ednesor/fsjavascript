@@ -74,8 +74,8 @@ const mostrarUltimasLineas = async (numLineas) => {
 
 async function main() {
     createDirectory("logs");
-    // await createLogFile();
-    // await rellenarArchivo(50);
+    await createLogFile();
+    await rellenarArchivo(50);
     await mostrarUltimasLineas(5);
 }
 
