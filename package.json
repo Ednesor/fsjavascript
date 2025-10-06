@@ -1,0 +1,22 @@
+{
+  "name": "filesystemnode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "1": "node ejercicio_1.js",
+    "2": "node ejercicio_2.js",
+    "3": "node ejercicio_3.js",
+    "4": "node ejercicio_4.js archivo.txt palabras",
+    "5": "node ejercicio_5.js archivo.txt archivoCopia.txt",
+    "6": "node ejercicio_6.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
